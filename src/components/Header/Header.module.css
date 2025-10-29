@@ -1,0 +1,51 @@
+.header {
+  text-align: center;
+  padding: 1rem 0;
+  background-color: #f7f9fb;
+  border-bottom: 1px solid #080808;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.logo{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.header h1{
+  margin: 0;
+}
+
+.subtitle {
+  font-size: 0.755rem;
+  color: #666;
+  margin-left: 61.5px;
+  margin-top: 0;
+}
+
+
+.filter {
+  margin-top: 0.75rem;
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+select {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.9rem;
+  border-radius: 4px;
+}
+
+@media (max-width:600px) {
+  .header{
+    flex-direction: column;
+  }
+
+  .filter{
+    align-self: end;
+  }
+}
