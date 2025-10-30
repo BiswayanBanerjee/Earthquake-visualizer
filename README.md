@@ -6,38 +6,40 @@ Users can explore global earthquake activity, filter results by continent, and v
 ---
 
 ## 🚀 Live Demo
+
 👉 [View on Render](https://quakescope.onrender.com)
 
 ## 💻 Source Code
+
 👉 [View on GitHub](https://github.com/BiswayanBanerjee/Earthquake-visualizer)
 
 ---
 
 ## 🧭 Features
 
-- 🌐 **Live Earthquake Data:** Fetches real-time data from the USGS Earthquake API.  
-- 🗺️ **Interactive Map:** Visualizes earthquakes using dynamic markers on a Leaflet map.  
-- 🧩 **Continent Filter:** Filter earthquakes by continent (Asia, Africa, Europe, etc.) with automatic zoom.  
-- 🎯 **Popup & Zoom Interaction:** Clicking a list item zooms to its map location and opens a popup.  
-- 🪄 **Active State Highlighting:** Selected earthquake in list is highlighted.  
-- 📭 **Empty State Handling:** Displays a friendly message when no earthquakes are found for the selected region.  
-- ⚙️ **Error Boundaries:** Catches and handles rendering errors gracefully.  
-- 💅 **Responsive UI:** Works seamlessly across mobile and desktop.  
+- 🌐 **Live Earthquake Data:** Fetches real-time data from the USGS Earthquake API.
+- 🗺️ **Interactive Map:** Visualizes earthquakes using dynamic markers on a Leaflet map.
+- 🧩 **Continent Filter:** Filter earthquakes by continent (Asia, Africa, Europe, etc.) with automatic zoom.
+- 🎯 **Popup & Zoom Interaction:** Clicking a list item zooms to its map location and opens a popup.
+- 🪄 **Active State Highlighting:** Selected earthquake in list is highlighted.
+- 📭 **Empty State Handling:** Displays a friendly message when no earthquakes are found for the selected region.
+- ⚙️ **Error Boundaries:** Catches and handles rendering errors gracefully.
+- 💅 **Responsive UI:** Works seamlessly across mobile and desktop.
 - ☀️ **Clean Styling:** Built with CSS Modules and plain CSS (MUI optionally used for minimal UI polish).
 
 ---
 
 ## 🧰 Tech Stack
 
-| Layer | Technology |
-|--------|-------------|
-| **Frontend Framework** | React (Vite) |
-| **Map Library** | React Leaflet + OpenStreetMap |
-| **Styling** | CSS Modules + Plain CSS |
-| **UI Components** | MUI (for optional icons and layout) |
-| **API Source** | [USGS Earthquake Feed – Past Day (GeoJSON)](https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson) |
-| **Deployment** | Render Free Tier |
-| **Version Control** | Git + GitHub |
+| Layer                  | Technology                                                                                                             |
+| ---------------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| **Frontend Framework** | React (Vite)                                                                                                           |
+| **Map Library**        | React Leaflet + OpenStreetMap                                                                                          |
+| **Styling**            | CSS Modules + Plain CSS                                                                                                |
+| **UI Components**      | MUI (for optional icons and layout)                                                                                    |
+| **API Source**         | [USGS Earthquake Feed – Past Day (GeoJSON)](https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson) |
+| **Deployment**         | Render Free Tier                                                                                                       |
+| **Version Control**    | Git + GitHub                                                                                                           |
 
 ---
 
@@ -65,12 +67,12 @@ src/
 ├── App.jsx # Main app logic
 └── index.js # Entry point
 
-
 ---
 
 ## ⚙️ Installation & Setup (Local)
 
 ### 1️⃣ Clone the repository
+
 ```bash
 git clone https://github.com/BiswayanBanerjee/Earthquake-visualizer.git
 cd Earthquake-visualizer
@@ -116,3 +118,4 @@ Biswayan Banerjee
 Full Stack Developer (Java | Node.js | React | MySQL | Prisma)
 📍 Kolkata, India
 Open for relocation
+```
