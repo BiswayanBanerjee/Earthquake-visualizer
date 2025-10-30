@@ -6,7 +6,6 @@ function EarthquakeList({ earthquakes = [], onSelect, selectedEq }) {
     <div className={styles.listContainer}>
       <h2><span>Recent Earthquakes</span> <span>(Past 24 Hours)</span></h2>
 
-      {/* 🟡 Empty state check */}
       {earthquakes.length === 0 ? (
         <div className={styles.emptyState}>
           <p>No earthquakes found for the selected region.</p>
